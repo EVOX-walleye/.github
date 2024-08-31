@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- device trees -->
+    <project name="Evolution-X-Devices/device_google_walleye" path="device/google/walleye" remote="github" revision="udc"/>
+    <project name="Evolution-X-Devices/device_google_wahoo" path="device/google/wahoo" remote="github" revision="udc"/>
+    <project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="lineage-21"/>
+
+    <!-- kernel -->
+    <project name="LineageOS/kernel_google_wahoo" path="kernel/google/wahoo" remote="github" revision="lineage-21"/>
+
+    <!-- vendor -->
+    <project name="Evolution-X-Devices/vendor_google_walleye" path="vendor/google/walleye" remote="github" revision="udc"/>
+
+    <!-- packages -->
+    <project name="LineageOS/android_packages_apps_ElmyraService" path="packages/apps/ElmyraService" remote="github" revision="lineage-21"/>
+</manifest>
