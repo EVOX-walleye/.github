@@ -6,11 +6,15 @@
     <project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="lineage-21"/>
 
     <!-- kernel -->
-    <project name="Evolution-X-Devices/kernel_google_wahoo" path="kernel/google/wahoo" remote="github" revision="lineage-21"/>
+    <project name="Evolution-X-Devices/kernel_google_wahoo" path="kernel/google/wahoo" remote="github" revision="udc"/>
 
     <!-- vendor -->
     <project name="Evolution-X-Devices/vendor_google_walleye" path="vendor/google/walleye" remote="github" revision="udc"/>
 
     <!-- packages -->
     <project name="LineageOS/android_packages_apps_ElmyraService" path="packages/apps/ElmyraService" remote="github" revision="lineage-21.0"/>
+
+    <!-- key -->
+    <!-- Evolution-X/vendor_evolution-priv_keys-template -->
+    <project name="Evolution-X/vendor_evolution-priv_keys-template" path="vendor/evolution-priv/keys" remote="github" revision="master"/>
 </manifest>
