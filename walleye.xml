@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- device trees -->
-    <project name="Evolution-X-Devices/device_google_walleye" path="device/google/walleye" remote="github" revision="udc"/>
-    <project name="Evolution-X-Devices/device_google_wahoo" path="device/google/wahoo" remote="github" revision="udc"/>
-    <project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="lineage-21"/>
+    <remote name="github-pixel2" fetch="https://github.com/EVOX-walleye" revision="udc" />
+
+    <!-- device tree -->
+    <project name="android_device_google_walleye" path="device/google/walleye" remote="github-pixel2"/>
+    <project name="android_device_google_muskie" path="device/google/muskie" remote="github-pixel2"/>
+    <project name="android_device_google_wahoo" path="device/google/wahoo" remote="github-pixel2"/>
+    <project name="android_device_google_gs-common" path="device/google/gs-common" remote="github-pixel2"/>
 
     <!-- kernel -->
-    <project name="Evolution-X-Devices/kernel_google_wahoo" path="kernel/google/wahoo" remote="github" revision="udc"/>
+    <project name="android_kernel_google_wahoo" path="kernel/google/wahoo" remote="github-pixel2"/>
 
     <!-- vendor -->
-    <project name="Evolution-X-Devices/vendor_google_walleye" path="vendor/google/walleye" remote="github" revision="udc"/>
+    <project name="TheMuppets/proprietary_vendor_google_walleye" path="vendor/google/walleye" remote="github" revision="lineage-21"/>
 
     <!-- packages -->
-    <project name="LineageOS/android_packages_apps_ElmyraService" path="packages/apps/ElmyraService" remote="github" revision="lineage-21.0"/>
-
-    <!-- key -->
-    <!-- Evolution-X/vendor_evolution-priv_keys-template -->
-    <project name="Evolution-X/vendor_evolution-priv_keys-template" path="vendor/evolution-priv/keys" remote="github" revision="master"/>
+    <project name="android_packages_apps_ElmyraService" path="packages/apps/ElmyraService" remote="github-pixel2"/>
 </manifest>
